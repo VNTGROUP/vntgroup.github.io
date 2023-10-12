@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media - VNT GROUP</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <i class="bx bx-menu menu-icon"></i>
+        <span class="logo-name">VNTGROUP</span>
+      </div>
+
+      <div class="sidebar">
+        <div class="logo">
+          <i class="bx bx-menu menu-icon"></i>
+          <span class="logo-name">VNTGROUP</span>
+        </div>
+
+        <div class="sidebar-content">
+          <ul class="lists">
+            <li class="list">
+              <a href="1sezonvnt.html" class="nav-link">
+                <i class='bx bx-video icon'></i>
+                <span class="link">1 Sezon VNT</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="sm.html" class="nav-link">
+                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <span class="link">Nasze social media</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="wsparcie.html" class="nav-link">
+                <i class='bx bx-donate-heart icon'></i>
+                <span class="link">Wsparcie</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="dokumenty.html" class="nav-link">
+                <i class="bx bx-folder-open icon"></i>
+                <span class="link">Dokumenty</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="Patrycja z Bytomia została zamordowana. Przeprowadzono sekcję zwłok. Dziewczynka była w ciąży. Miała 13 lat. Policja zatrzymała 15-latka _ Dziennik Zachodni.html" target="_blank" class="nav-link">
+                <i class='bx bx-file icon'></i>
+                <span class="link">Artykuł w Dzienniku Zachodnim</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="Patrycja z Bytomia zamordowana. Zrozpaczony ojciec_ Stał obok mnie, a wcześniej zabił moją córkę! Wstrząsające słowa rodziców ofiary _ Dziennik Zachodni.html" target="_blank" class="nav-link">
+                <i class='bx bx-file icon'></i>
+                <span class="link">Drugi artykuł</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="bottom-cotent">
+            <li class="list">
+              <a href="index.html" class="nav-link">
+                <i class='bx bx-home-alt icon'></i>
+                <span class="link">Strona główna</span>
+              </a>
+            </li>
+            <li class="list">
+              <img src="img/logo.png" alt="logo VNT">
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <h1 class="smbtn">
+      <div style="text-align: center;">
+  <p class="smbtn">VNT GROUP</p>
+  
+    <a href="https://www.youtube.com/@telewizjavnt" target="_blank">KANAŁ YT "TELEWIZJA VNT"</a><br>
+    <a href="https://www.youtube.com/@vntlabel" target="_blank">KANAŁ YT "VNT LABEL"</a><br>
+    <a href="https://www.instagram.com/telewizjavnt/" target="_blank">INSTAGRAM</a><br>
+  
+  <p>Stefan Bąk</p>
+  
+    <a href="https://linktr.ee/supremefacestephan" target="_blank">LINKTR.EE STEFANA</a><br>
+  </div>
+  </h1>
+
+    <script>
+      const navBar = document.querySelector("nav"),
+        menuBtns = document.querySelectorAll(".menu-icon"),
+        overlay = document.querySelector(".overlay");
+
+      menuBtns.forEach((menuBtn) => {
+        menuBtn.addEventListener("click", () => {
+          navBar.classList.toggle("open");
+        });
+      });
+
+      overlay.addEventListener("click", () => {
+        navBar.classList.remove("open");
+      });
+    </script>
+<section class="overlay"></section>  
+  </body>
+</html>
